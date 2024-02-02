@@ -11,6 +11,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.1.0",
+    "@angular/cdk": "^17.1.2",
     "@angular/common": "^17.1.0",
     "@angular/compiler": "^17.1.0",
     "@angular/core": "^17.1.0",
@@ -23,6 +24,9 @@
     "@jsonforms/angular": "^3.2.1",
     "@jsonforms/angular-material": "^3.2.1",
     "@jsonforms/core": "^3.2.1",
+    "@types/lodash": "^4.14.202",
+    "date-fns": "^3.3.1",
+    "lodash": "^4.17.21",
     "ng2-pdfjs-viewer": "^17.0.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
