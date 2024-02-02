@@ -11,6 +11,7 @@ import {
   optionIs,
   StatePropsOfControl,
   formatIs,
+  scopeEndsWith
 } from '@jsonforms/core';
 import { JsonFormsAngularMaterialModule } from '@jsonforms/angular-material';
 import { PdfJsViewerComponent, PdfJsViewerModule } from 'ng2-pdfjs-viewer';
@@ -67,6 +68,7 @@ export const PdfDisplayRendererTester: RankedTester = rankWith(
   and(
     formatIs('uri'),
     optionIs('readonly', true),
-    optionIs('display', 'image-viewer')
+    optionIs('display', 'image-viewer'),
+    scopeEndsWith("_pdf")
   )
 );
